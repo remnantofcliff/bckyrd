@@ -1,3 +1,6 @@
+#ifndef BCKYRD_H
+#define BCKYRD_H
+
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -62,3 +65,5 @@ static inline void bckyrd_Pool_reset(bckyrd_Pool pool[static 1]) {
 static inline void bckyrd_Pool_reset_to(bckyrd_Pool pool[static 1], void *ptr) {
   pool->current_ptr = ptr;
 }
+
+#endif
