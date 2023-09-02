@@ -1,0 +1,14 @@
+-Iinclude
+-O3
+-Wall
+-Wcast-align
+-Wcast-qual
+-Wconversion
+-Wextra
+-Wmissing-prototypes
+-Wpedantic
+-Wpointer-arith
+-Wshadow
+-march=native
+-o bckyrd
+-std=c2x
